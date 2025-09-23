@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 
 # Configure the client
-client = genai.Client(api_key="AIzaSyDpUD81GhgTihneibmypU0nsYbXr-bNWgk")
+client = genai.Client(api_key="")
 
 # Define the grounding tool
 grounding_tool = types.Tool(
